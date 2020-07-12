@@ -1,18 +1,175 @@
 
 
+
+/* COMMUN */
+
 body{
-    margin:20px;
+    margin:0;
+    padding:0;
+}
+h2{
+    margin-top:50px;
+    font-size:1.8rem;
+
+    color:#2d52a3;
+}
+h3{
+    text-align: center;
+    margin-top:40px;
+    margin-bottom:20px;
+
+    font-size:1.5rem;
+}
+h4{
+    font-size:1.1rem;
+}
+h4 + ul{
+    font-size: 0.9rem;
+    margin-bottom:30px;
 }
 
 
-
-
-
-.name{
-    font-size:3rem;
-}
-
-ul{
+ul li{
     list-style: none;
-    text-align: right;
+}
+header span{
+    color:#2d52a3;
+}
+
+
+
+.underlineh2{
+
+    height:2px;
+    width: 100%;
+
+    background-color:#122f6d;
+    border-radius: 3px;
+
+    margin-bottom:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.ligne{
+    background-color:#9b9b9b;
+    width: 2px;
+
+    left:33px;
+    position:   absolute;
+}
+
+
+.ligne-1{
+    height:190px;
+}
+
+.ligne-2{
+    height:330px;
+}
+.ligne-3{
+    height:100px;
+}
+
+
+
+
+
+
+/* ASIDE */
+
+.photo{
+    background-color:rgb(65, 152, 192);
+    height:400px; 
+}
+
+
+
+.competence p{
+    font-weight: bold;
+}
+.competence img{
+    height:25px;
+}
+.hauteur{
+    height:30px;
+}
+
+
+.support-score{
+
+    background-color:rgb(197, 197, 197);
+    border-radius: 5px;
+    height:10px;
+    width:90%;
+
+    position:relative;
+
+    margin-top:7px;
+}
+.score{
+    background-color: rgb(0, 110, 255);
+    height:10px;
+    border-radius: 5px;
+
+    position: absolute;
+}
+.score-2{
+    width:20%;
+}
+.score-3{
+    width:40%;
+}
+.score-4{
+    width:60%;
+}
+.score-5{
+    width:80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HEADER */
+
+header{
+    text-align: center;
+}
+
+header p{
+    font-size:3rem;
+    margin-top:30px;
+    margin-bottom:0;
+
+    font-weight: bold;
+}
+
+
+
+
+
+/* FORMATION */
+
+
+@media screen and (max-width:1200px){
+
 }
