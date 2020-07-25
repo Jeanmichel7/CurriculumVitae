@@ -48,6 +48,11 @@
 
                     </div>
 
+                    <!-- Nom prénom -->
+                    <div class="d-block d-sm-none nomprenom">   <!-- affiche le bloc en xs-->
+                        <p>Jean-Michel <span>Rasser</span></p>
+                        <h1>Développeur Web</h1>
+                    </div> 
 
                     <!--Compétences-->
                     <div class="competence">
@@ -225,35 +230,36 @@
 
 
 
-
+            <!-- ************************** COTE DROITE ************************ -->
             <div class="col-sm-8">
 
                 <!-- En tete-->
                 <header>
-                    <p>Jean-Michel <span>Rasser</span></p>
-                    <h1>Développeur Web</h1>
+                    <div class="d-none d-sm-block nomprenom">   <!-- affiche le blox a partir de sm-->
+                        <p>Jean-Michel <span>Rasser</span></p>
+                        <h1>Développeur Web</h1>
+                    </div>                 
                 </header>
-
 
 
                 <main>
                     <section>
                         <h2><i class="fa fa-graduation-cap"></i> Formation</h2>
                         <div class="underlineh2"></div>
-                        <div class="ligne ligne-1"></div>
-                        <!--Formation 1-->
                         
+                        <!--Formation 1-->
                         <article>
+                            <div class="ligne ligne-1"></div>
                             <div class="row"> 
-                                <div class="col-md-3">
-                                    <ul>
-                                        <li>2020</li>
-                                        <li>Colmar</li>
-                                        <li>( 1 An )</li>
+                                <div class="col-sm-3">
+                                    <ul class="dates">
+                                        <li class="date">2020</li>
+                                        <li class="date">Colmar</li>
+                                        <li class="date">- 1 An</li>
                                     </ul>
                                 </div>
                             
-                                <div class="col-md-9">
+                                <div class="col-sm-9">
                                     <h4>Développeur Web Junior OpenClassRooms</h4>
                                     <ul>
                                         <li>HTML5 et CSS3 : de la maquette à la page web</li>
@@ -269,11 +275,12 @@
 
                         <!-- Formation 2-->
                         <article>
+                            <div class="ligne ligne-1"></div>
                             <div class="row">
                                 <div class="col-sm-3">
-                                    <ul>
-                                        <li>2010-2011</li>
-                                        <li>Colmar</li>
+                                    <ul class="dates">
+                                        <li class="date">2010-2011</li>
+                                        <li class="date">Colmar</li>
                                     </ul>
                                 </div>
                             
@@ -294,11 +301,12 @@
 
                         <!-- Impression 3D-->
                         <article>
+                            <div class="ligne ligne-1"></div>
                             <div class="row">
                                 <div class="col-sm-3">
-                                    <ul>
-                                        <li>2019-Maintenant</li>
-                                        <li>Domicile</li>
+                                    <ul class="dates">
+                                        <li class="date">2019-</li>
+                                        <li class="date">Domicile</li>
                                     </ul>
                                 </div>
                             
@@ -312,14 +320,63 @@
                             </div>
                         </article>
                         
+
+                        <!-- Téléphone-->
+                        <article>
+                            <div class="ligne ligne-1"></div>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <ul class="dates">
+                                        <li class="date">2019-</li>
+                                        <li class="date">Domicile</li>
+                                    </ul>
+                                </div>
+                            
+                                <div class="col-sm-9">
+                                    <h4>Réparation informatique</h4>
+                                    <ul>
+                                        <li>Réparation et diagnostique de téléphone et ordinateur
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>
+
+                    
+                    
+                        <!-- Agent de piste -->
+                        <article>
+                            <div class="ligne ligne-1"></div>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <ul class="dates">
+                                        <li class="date">2010-2019</li>
+                                        <li class="date">Bâle-Mulhouse</li>
+                                        <li class="date">- 9 Ans </li>
+                                    </ul>
+                                </div>
+                            
+                                <div class="col-sm-9">
+                                    <h4>Agent de piste - EuroAirport</h4>
+                                    <ul>
+                                        <li>Bagage : Trier, ordganiser, achemnier, gestion des erreurs</li>
+                                        <li>Tarmac : Préparation, Observation, Travail d'équipe, Timing, Remplissage des soutes
+                                        </li>
+                                        <li>VIP : Accueil, Accompagnement, Suivi des bagages</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>
+                        
                         
                         <!-- Excel 3D-->
                         <article>
+                            <div class="ligne ligne-1"></div>
                             <div class="row">
                                 <div class="col-sm-3">
-                                    <ul>
-                                        <li>2019</li>
-                                        <li>Domicile</li>
+                                    <ul class="dates">
+                                        <li class="date">2019</li>
+                                        <li class="date">Domicile</li>
                                     </ul>
                                 </div>
                             
@@ -331,42 +388,16 @@
                                 </div>
                             </div>
                         </article>
-                    
-                    
-                        <!-- Agent de piste -->
-                        <article>
-                            <div class="row">
-                                <div class="col-sm-3">
-                                    <ul>
-                                        <li>2010-2019</li>
-                                        <li>Bâle-Mulhouse</li>
-                                        <li>( 9 Ans )</li>
-                                    </ul>
-                                </div>
-                            
-                                <div class="col-sm-9">
-                                    <h4>Agent de piste - EuroAirport</h4>
-                                    <ul>
-                                        <li>Bagage : Trier, ordganiser, achemnier, gestion des erreurs</li>
-                                        <li>Tarmac : Préparation, Observation, Travail d'équipe, Timing, Remplissage des soutes
-                                        </li>
-                                        <li>VIP : Acceuil, Accompagnement, Suivi des bagages</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </article>
-                        
-                        
-                        
                         
                         
                         <!-- Ouvrirer agricole-->
                         <article>
+                            <div class="ligne ligne-1"></div>
                             <div class="row">
                                 <div class="col-sm-3">
-                                    <ul>
-                                        <li>2010-Maintenant</li>
-                                        <li>Domicile</li>
+                                    <ul class="dates">
+                                        <li class="date">2010-</li>
+                                        <li class="date">Domicile</li>
                                     </ul>
                                 </div>
                             
@@ -391,6 +422,7 @@
                     <h2><i class="fa fa-gamepad"></i> Loisirs et apprentissage personnel</h2>
                     <div class="underlineh2"></div>
                     <div class="ligne ligne-3"></div>
+                    
 
                     <div class="row">
                         <div class="col-sm-6">
@@ -403,6 +435,7 @@
                         </div>
 
                         <div class="col-sm-6">
+                            <div class="ligne ligne-4"></div>
                             <ul>
                                 <li>Initiation aux C/Linux</li>
                                 <li>Domotique - Arduino</li>
@@ -423,4 +456,4 @@
     </div>
 </body>
 
-</html>D
+</html>
